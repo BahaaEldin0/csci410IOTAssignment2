@@ -1,3 +1,3 @@
-def count_vowels(input_string):
-    vowels = "AEIOUaeiou"
-    return sum(input_string.count(vowel) for vowel in vowels)
+def is_pangram(input_string):
+    alphabet = set("abcdefghijklmnopqrstuvwxyz")
+    return set(input_string.lower()) >= alphabet
