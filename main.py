@@ -1,6 +1,3 @@
-def calculate_sum(*args):
-    return sum(args)
-
 def generate_fibonacci(N):
     fib_sequence = [0, 1]
     while len(fib_sequence) < N:
